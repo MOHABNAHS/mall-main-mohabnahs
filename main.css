@@ -1,0 +1,174 @@
+/* بسم الله الرحمن الرحيم */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Noto Sans Arabic', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+/* header */
+header {
+    background-color: #1f1f3a;
+    width: auto;
+    height: auto;
+    padding: 8px 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 98%;
+    box-shadow: 1px 1px 10px;
+    top: 0;
+    z-index: 1;
+}
+
+.headerLogo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.headerList {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    gap: 20px;
+    color: white;
+    border-radius: 8px;
+
+}
+
+.headerLists {
+    transition: 200ms;
+    cursor: pointer;
+    border: 1px solid #1f1f3a;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.headerLists:hover {
+    border: 1px solid white;
+}
+
+.headerLists:active {
+    background-color: white;
+    color: black;
+}
+
+.headerBtn {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #1f1f3a;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.headerBtn:hover {
+    transform: translateY(-2px) translateX(-2px);
+    box-shadow: 4px 4px 1px rgb(0, 0, 0);
+}
+
+
+/* main */
+main {
+    background-color: #1e3a5f;
+    height: auto;
+    padding-top: 80px;
+    padding-left: 230px;
+    padding-right: 20px;
+    padding-bottom: 300px;
+    /* background-image: url(bcg-main.png); */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mainList {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    gap: 60px;
+    padding: 5px;
+    background-color: rgb(19, 0, 54);
+    top: 0;
+    z-index: 0;
+    padding: 110px 40px 50px 10px;
+    height: 80vh;
+    align-items: end;
+    box-shadow: 1px 1px 10px;
+}
+
+.mainLists {
+    cursor: pointer;
+    color: white;
+    border: 1px solid rgb(19, 0, 54);
+    transition: 200ms;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.mainLists:hover {
+    border: 1px solid white;
+}
+
+.mainLists:active {
+    background-color: white;
+    color: black;
+}
+
+/* cates */
+.cates {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.catesTitle {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    scroll-margin-top: 80px;
+}
+
+.shops {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px;
+    height: 500px;
+    background-color: #152841;
+    overflow: hidden;
+    transition: 200ms;
+    width: 250px;
+}
+
+.shops:hover {
+    scale: 1.04;
+}
+
+.shops img {
+    border-radius: 10px;
+    transition: 200ms;
+}
+
+.titleShops {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
