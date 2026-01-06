@@ -39,7 +39,6 @@ header {
     gap: 20px;
     color: white;
     border-radius: 8px;
-
 }
 
 .headerLists {
@@ -57,6 +56,13 @@ header {
 .headerLists:active {
     background-color: white;
     color: black;
+}
+
+.headerList1 {
+    background-color: white;
+    color: black;
+    cursor: default;
+    border: 1px solid white;
 }
 
 .headerBtn {
@@ -169,6 +175,15 @@ main {
     text-align: center;
 }
 
-a {
+a{
     text-decoration: none;
+}
+
+.headerLists a{
+    text-decoration: none;
+    color: white;
+}
+
+.headerLists a:active{
+    color: black;
 }

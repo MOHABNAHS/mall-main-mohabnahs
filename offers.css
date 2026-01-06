@@ -1,0 +1,94 @@
+/* بسم الله الرحمن الرحيم */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Noto Sans Arabic', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+/* header */
+header {
+    background-color: #1f1f3a;
+    width: auto;
+    height: auto;
+    padding: 8px 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 98%;
+    box-shadow: 1px 1px 10px;
+    top: 0;
+    z-index: 1;
+}
+
+.headerLogo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.headerList {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    gap: 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+.headerLists {
+    transition: 200ms;
+    cursor: pointer;
+    border: 1px solid #1f1f3a;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerLists:hover {
+    border: 1px solid white;
+}
+
+.headerLists:active {
+    background-color: white;
+    color: black;
+}
+
+.headerLists:active>a {
+    color: black;
+}
+
+.headerList2 {
+    background-color: white;
+    color: black;
+    cursor: default;
+    border: 1px solid white;
+}
+
+.headerBtn {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #1f1f3a;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.headerBtn:hover {
+    transform: translateY(-2px) translateX(-2px);
+    box-shadow: 4px 4px 1px rgb(0, 0, 0);
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
